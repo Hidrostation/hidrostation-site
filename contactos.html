@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contactos — Hidrostation</title>
+  <meta name="description" content="Contacte a Hidrostation: telefone, email, morada e formulário de contacto.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Hidrostation">
+        <img src="assets/logo.png" alt="Hidrostation" class="logo">
+      </a>
+      <nav class="nav">
+        <a href="https://www.store.hidrostation.pt/" class="btn btn-outline" rel="noopener">Loja Online</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Sub-hero -->
+    <section class="sub-hero">
+      <div class="container sub-hero-inner">
+        <h1>Contactos</h1>
+        <p>Estamos disponíveis para o ajudar — fale connosco.</p>
+      </div>
+    </section>
+
+    <section class="contact-grid">
+      <div class="container grid">
+        <div class="col info">
+          <div class="card soft">
+            <h3>Fale connosco</h3>
+            <ul class="contact-list">
+              <li><strong>Telefone:</strong> <a href="tel:+351223222334">+351 223 222 334</a></li>
+              <li><strong>Email:</strong> <a href="mailto:hidrostation@hidrostation.pt">hidrostation@hidrostation.pt</a></li>
+              <li><strong>Morada:</strong> R. Central de Ardegães 289, 4425-046 Águas Santas</li>
+            </ul>
+            <div class="quick-actions">
+              <a class="btn btn-primary" href="mailto:hidrostation@hidrostation.pt">Enviar Email</a>
+              <a class="btn btn-outline" href="tel:+351223222334">Ligar agora</a>
+            </div>
+          </div>
+
+          <div class="card soft">
+            <h3>Redes sociais</h3>
+            <ul class="social-list">
+              <li><a href="https://www.linkedin.com/company/hidrostation/" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://www.facebook.com/61559501935519/" rel="noopener">Facebook</a></li>
+              <li><a href="https://www.instagram.com/" rel="noopener">Instagram</a></li>
+              <li><a href="https://www.youtube.com/" rel="noopener">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col form">
+          <div class="card soft">
+            <h3>Formulário de contacto</h3>
+            <form class="contact-form" action="mailto:hidrostation@hidrostation.pt" method="post" enctype="text/plain">
+              <div class="row">
+                <label for="nome">Nome</label>
+                <input id="nome" name="Nome" type="text" placeholder="Nome" required>
+              </div>
+              <div class="row">
+                <label for="email">Email</label>
+                <input id="email" name="Email" type="email" placeholder="nome@empresa.pt" required>
+              </div>
+              <div class="row">
+                <label for="assunto">Assunto</label>
+                <input id="assunto" name="Assunto" type="text" placeholder="Como é que podemos ajudar?" required>
+              </div>
+              <div class="row">
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Escreva a sua mensagem…" required></textarea>
+              </div>
+              <div class="row">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+              
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="map-embed">
+          <iframe
+            title="Localização Hidrostation"
+            src="https://www.google.com/maps?q=R.%20Central%20de%20Ardeg%C3%A3es%20289,%204425-046%20%C3%81guas%20Santas&output=embed"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="site-footer">
+    <div class="container footer-grid">
+      <section class="footer-col">
+        <h4>ACOMPANHE-NOS</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/company/hidrostation/" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/" rel="noopener">Instagram</a></li>
+          <li><a href="https://www.facebook.com/61559501935519/" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.youtube.com/" rel="noopener">YouTube</a></li>
+        </ul>
+      </section>
+      <section class="footer-col">
+        <h4>CONTACTOS</h4>
+        <ul>
+          <li><a href="tel:+351223222334">+351 223 222 334</a></li>
+          <li><a href="mailto:hidrostation@hidrostation.pt">hidrostation@hidrostation.pt</a></li>
+          <li>Rua Central de Ardegães 289<br>4425-046 Águas Santas</li>
+        </ul>
+      </section>
+      <section class="footer-col">
+        <h4>INFORMAÇÕES</h4>
+        <ul>
+          <li><a href="sobre-nos.html">Sobre nós</a></li>
+          <li><a href="contactos.html">Contactos</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="politica-privacidade.html">Política de Privacidade e de Cookies</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> Hidrostation. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>
